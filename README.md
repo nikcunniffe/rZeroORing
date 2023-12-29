@@ -1,5 +1,8 @@
 # rZeroORing
-Code for paper by van den Bosch, Helps and Cunniffe on using the O-ring statistic to calculate R0 for spatially structured epidemic models
+
+Code for paper by van den Bosch, Helps and Cunniffe on using the O-ring statistic to calculate R0 for spatially structured epidemic models.
+
+The pipeline for creating landscape(s), running epidemics and calculating R0 is described below.
 
 1. Compile EpidemicSim.exe from EpidemicSim.c and mt19937ar.c
 2. Create directory to do the runs
