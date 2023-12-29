@@ -6,16 +6,16 @@ The pipeline for creating landscape(s), running epidemics and calculating R0 is 
 
 1. Compile EpidemicSim.exe from EpidemicSim.c and mt19937ar.c
 2. Create directory to do the runs
-3. Copy the following files to directory created in step 1
+3. Copy the following files to directory created in step 2
 	- EpidemicSim.cfg
 	- EpidemicSim.exe
 	- create_LS.R
 	- rZero_From_Sims.R
 	- rZero_Function.R
-4. Create the following subdirectories of directory created in step 1
+4. Create the following subdirectories of directory created in step 2
 	- Inputs
 	- Outputs
-5. Start R and change to the directory created in step 1 using setwd()
+5. Start R and change to the directory created in step 2 using setwd()
 6. Run create_LS.R 
 	- Options for landscape generation are in the R file
 	- Running it will fill up Inputs subdirectory
